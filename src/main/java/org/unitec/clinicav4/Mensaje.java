@@ -12,6 +12,11 @@ public class Mensaje {
 
     String titulo;
 
+    public Mensaje(String id, String titulo) {
+        this.id = id;
+        this.titulo = titulo;
+    }
+
     @Override
     public String toString() {
         return "Mensaje{" +
