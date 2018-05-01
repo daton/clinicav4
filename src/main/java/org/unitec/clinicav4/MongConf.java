@@ -41,7 +41,7 @@ public class MongConf extends AbstractReactiveMongoConfiguration {
 
     @Override
     protected String getDatabaseName() {
-        return "gera";
+        return "heroku_c0t49qrk";
     }
 
     @Bean
@@ -49,7 +49,7 @@ public class MongConf extends AbstractReactiveMongoConfiguration {
     public MongoClient reactiveMongoClient() {
 
       //  MongoClientURI uri=new MongoClientURI("mongodb+srv://campitos:topoyiyo@cluster0-d36jf.mongodb.net");
-        MongoClient client=MongoClients.create("mongodb://gera:gera1973@ds029715.mlab.com:29715/gera");
+        MongoClient client=MongoClients.create("mongodb://campitos:unitec2018@ds111050.mlab.com:11050/heroku_c0t49qrk");
 
         return client;
     }

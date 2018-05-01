@@ -16,7 +16,7 @@ public class Clinicav4Application  implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		//reactiveMongoTemplate.save(new Mensaje("dos","otro")).subscribe();
+		reactiveMongoTemplate.save(new Mensaje("dos","otro")).subscribe();
 		System.out.println("se guardo otro");
 	}
 }
