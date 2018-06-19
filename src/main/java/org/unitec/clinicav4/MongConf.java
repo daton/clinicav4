@@ -41,7 +41,7 @@ public class MongConf extends AbstractReactiveMongoConfiguration {
 
     @Override
     protected String getDatabaseName() {
-        return "heroku_c0t49qrk";
+        return "heroku_q8gmnvc2";
     }
 
     @Bean
@@ -49,7 +49,7 @@ public class MongConf extends AbstractReactiveMongoConfiguration {
     public MongoClient reactiveMongoClient() {
 
       //  MongoClientURI uri=new MongoClientURI("mongodb+srv://campitos:topoyiyo@cluster0-d36jf.mongodb.net");
-        MongoClient client=MongoClients.create("mongodb://campitos:unitec2018@ds111050.mlab.com:11050/heroku_c0t49qrk");
+        MongoClient client=MongoClients.create("mongodb://campitos:unitec2018@ds263500.mlab.com:63500/heroku_q8gmnvc2");
 
         return client;
     }
