@@ -7,6 +7,9 @@ public class Estatus {
     String mensaje;
     boolean success;
 
+    public Estatus() {
+    }
+
     public Estatus(String mensaje, boolean success) {
         this.mensaje = mensaje;
         this.success = success;
