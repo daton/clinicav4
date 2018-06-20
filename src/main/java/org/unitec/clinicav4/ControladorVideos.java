@@ -15,7 +15,7 @@ import java.net.URL;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-@CrossOrigin
+@CrossOrigin(origins = { "https://daton.github.io/admin-geer"  }, allowCredentials = "true")
 @RestController
 @RequestMapping("/api")
 public class ControladorVideos {
