@@ -15,7 +15,7 @@ import java.net.URL;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-@CrossOrigin(origins = { "https://daton.github.io/admin-geer"  }, allowCredentials = "true")
+@CrossOrigin(origins = { "https://daton.github.io"  }, allowCredentials = "true")
 @RestController
 @RequestMapping("/api")
 public class ControladorVideos {
@@ -36,7 +36,7 @@ public class ControladorVideos {
 
 
 
-    @CrossOrigin(origins = { "https://daton.github.io/admin-geer"  }, allowCredentials = "true")
+    @CrossOrigin(origins = { "https://daton.github.io"  }, allowCredentials = "true")
     @RequestMapping(value="/archivaldo", method= RequestMethod.POST)
     public Estatus
      handleFileUpload(@RequestParam("file") MultipartFile file, @RequestParam("valor") String valor)throws Exception {
