@@ -36,7 +36,7 @@ public class ControladorVideos {
 
 
 
-    @CrossOrigin(origins = { "http://localhost:4200","https://daton.github.io/admin-geer"  }, allowCredentials = "true")
+    @CrossOrigin(origins = { "https://daton.github.io/admin-geer"  }, allowCredentials = "true")
     @RequestMapping(value="/archivaldo", method= RequestMethod.POST)
     public Estatus
      handleFileUpload(@RequestParam("file") MultipartFile file, @RequestParam("valor") String valor)throws Exception {
